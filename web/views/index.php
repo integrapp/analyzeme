@@ -1,6 +1,5 @@
 <?php
 session_start();
-echo 'status: '.$_SESSION['login_status'];
 ?>
 <html>
   <head>

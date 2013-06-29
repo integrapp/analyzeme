@@ -1,3 +1,7 @@
+<?php
+session_start();
+echo 'status: '.$_SESSION['login_status'];
+?>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -69,9 +73,9 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               </li>
             </ul>
-            <form class="navbar-form pull-right">
-              <input class="span2" type="text" placeholder="Email">
-              <input class="span2" type="password" placeholder="Password">
+            <form class="navbar-form pull-right" method="post" action="../process/login.php">
+              <input class="span2" type="text" placeholder="Email" name="email">
+              <input class="span2" type="password" placeholder="Password" name="password">
               <button type="submit" class="btn">Sign in</button>
             </form>
           </div><!--/.nav-collapse -->

@@ -86,6 +86,11 @@
 		    <div class="demo-container">
           <div id="weight-graph" class="demo-placeholder"></div>
         </div>
+        <form class="">
+              <input class="span2" type="text" name="date" placeholder="Date">
+              <input class="span2" type="text" name="weight" placeholder="Kg.">
+              <button type="submit" class="btn">Añadir peso</button>
+        </form>
       </div>
 
       <div class="hero-unit">
@@ -132,17 +137,36 @@
     <script type="text/javascript">
       $(function() {
         var d1 = [];
-        for (var i = 0; i < 14; i += 0.5) {
-          d1.push([i, Math.sin(i)]);
-	      }
+        d1.push([20130601, 80]);
+        d1.push([20130602, 79.9]);
+        d1.push([20130603, 75]);
+        d1.push([20130604, 76]);
+        d1.push([20130605, 78]);
+        d1.push([20130606, 60]);
+        d1.push([20130607, 63]);
+        d1.push([20130608, 65]);
+        d1.push([20130609, 60]);
+        d1.push([20130610, 61]);
+        d1.push([20130611, 62]);
 
-        var d2 = [[0, 3], [4, 8], [8, 5], [9, 13]];
+        var d2 = [];
+        d2.push([20130601, 80]);
+        d2.push([20130602, 80]);
+        d2.push([20130603, 77.5]);
+        d2.push([20130604, 77]);
+        d2.push([20130605, 77.5]);
+        d2.push([20130606, 73]);
+        d2.push([20130607, 70]);
+        d2.push([20130608, 68]);
+        d2.push([20130609, 65]);
+        d2.push([20130610, 63]);
+        d2.push([20130611, 63]);
 
-        // A null signifies separate line segments
 
-        var d3 = [[0, 12], [7, 12], null, [7, 2.5], [12, 2.5]];
+        var data = [d1, d2];
 
-        $.plot("#weight-graph", [ d1, d2, d3 ]);
+        $.plot("#weight-graph", data);
+        $(window).resize(function() {$.plot($('#weight-graph'), data);});
     });
 	</script>
   </body>

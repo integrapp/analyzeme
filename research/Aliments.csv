@@ -1,0 +1,366 @@
+1;1;Arroz blanco;354
+2;1;Arroz integral;350
+3;1;Avena;367
+4;1;Cebada;373
+5;1;Centeno;350
+6;1;Cereales con chocolate;358
+7;1;Cereales desayuno, con miel;386
+8;1;Copos de maíz;350
+9;1;Harina de maíz;349
+10;1;Harina de trigo integral;340
+11;1;Harina de trigo refinada;353
+12;1;Pan de centeno;241
+13;1;Pan de trigo blanco;255
+14;1;Pan de trigo integral;239
+15;1;Pan de trigo molde blanco;233
+16;1;Pan de trigo molde integral;216
+17;1;Pasta al huevo;368
+18;1;Pasta de sémola;361
+19;1;Polenta;358
+20;1;Sémola de trigo;368
+21;1;Yuca;338
+22;2;Arvejas secas;340
+23;2;Garbanzos;361
+24;2;Habas secas;343
+25;2;Lentejas;336
+26;2;Poroto;316
+27;2;Soja en grano;422
+28;3;Clara;48
+29;3;Huevo duro;147
+30;3;Huevo entero;162
+31;3;Yema;368
+32;4;Bizcocho;456
+33;4;Croissant chocolate;469
+34;4;Croissant, donut;456
+35;4;Galletas de chocolate;524
+36;4;Galletas de mantequilla tipo “Danesas”;397
+37;4;Galletas saladas;464
+38;4;Magdalenas;469
+39;4;Pasta de hojaldre cocida;565
+40;4;Pastel de manzana;311
+41;4;Pastel de manzana, masa hojaldre;456
+42;4;Pastel de queso;414
+43;5;Azúcar;380
+44;5;Cacao en polvo con azúcar instantáneo;366
+45;5;Caramelos;378
+46;5;Chocolate con leche;550
+47;5;Chocolate sin leche;530
+48;5;Crema chocolate con avellanas;549
+49;5;Dulce de membrillo;215
+50;5;Gomas de fruta;172
+51;5;Helados de agua;139
+52;5;Mermeladas con azúcar;280
+53;5;Mermeladas sin azúcar;145
+54;5;Miel;300
+55;6;Aceitunas negras;349
+56;6;Aceitunas verdes;132
+57;6;Acelgas;33
+58;6;Ajos;169
+59;6;Alcachofas;64
+60;6;Apio;20
+61;6;Arvejas;78
+62;6;Arvejas congeladas;71
+63;6;Berenjena;29
+64;6;Berros;21
+65;6;Brócoli;31
+66;6;Calabacín;31
+67;6;Calabaza;24
+68;6;Cebolla;47
+69;6;Cebolla tierna;39
+70;6;Champiñón y otras cetas;28
+71;6;Choclo;96
+72;6;Cochayuyo;50
+73;6;Col;28
+74;6;Col de Bruselas;54
+75;6;Coliflor;30
+76;6;Endibia;22
+77;6;Escarola;37
+78;6;Espárragos;26
+79;6;Espárragos en lata;24
+80;6;Espinaca;32
+81;6;Espinacas congeladas;25
+82;6;Habas tiernas;64
+83;6;Hinojo;16
+84;6;Lechuga;18
+85;6;Maíz dulce en conserva;50
+86;6;Nabos;29
+87;6;Papas cocidas;86
+88;6;Pepino;12
+89;6;Perejil;55
+90;6;Pimiento;22
+91;6;Porotos verdes;21
+92;6;Puerros;42
+93;6;Puré de papas;357
+94;6;Rábanos;20
+95;6;Remolacha;40
+96;6;Repollo;19
+97;6;Rúcula;37
+98;6;Soja, Brotes de;50
+99;6;Tomate triturado en conserva;39
+100;6;Tomates;22
+101;6;Trufa;92
+102;6;Zanahoria;42
+103;6;Zumo de tomate;21
+104;7;Arándanos;41
+105;7;Caqui;64
+106;7;Cereza;47
+107;7;Chirimoya;78
+108;7;Ciruela;44
+109;7;Ciruela seca;290
+110;7;Coco;646
+111;7;Damasco;44
+112;7;Dátil;279
+113;7;Dátil seco;306
+114;7;Durazno;52
+115;7;Durazno en almíbar;84
+116;7;Frambuesa;40
+117;7;Fresas;36
+118;7;Granada;65
+119;7;Grosella;37
+120;7;Higos;80
+121;7;Higos secos;275
+122;7;Kiwi;51
+123;7;Limón;39
+124;7;Mandarina;40
+125;7;Mango;57
+126;7;Manzana;52
+127;7;Melón;31
+128;7;Mora;37
+129;7;Naranja;44
+130;7;Nectarina;64
+131;7;Nísperos;97
+132;7;Palta;167
+133;7;Papaya;45
+134;7;Pera;61
+135;7;Piña;51
+136;7;Piña en almíbar;84
+137;7;Plátano;90
+138;7;Pomelo;30
+139;7;Sandía;30
+140;7;Uva;81
+141;7;Uva pasa;324
+142;7;Zumo de fruta;45
+143;7;Zumo de Naranja;42
+144;8;Almendras;620
+145;8;Avellanas;675
+146;8;Castañas;199
+147;8;Maní;560
+148;8;Nueces;660
+149;8;Piñones;660
+150;8;Pistacho;581
+151;9;Cuajada;92
+152;9;Flan de huevo;126
+153;9;Flan de vainilla;102
+154;9;Helados lácteos;167
+155;9;Leche condensada c/azúcar;350
+156;9;Leche condensada s/azúcar;160
+157;9;Leche de cabra;72
+158;9;Leche de oveja;96
+159;9;Leche descremada;36
+160;9;Leche en polvo descremada;373
+161;9;Leche en polvo entera;500
+162;9;Leche entera;68
+163;9;Leche semi descremada;49
+164;9;Mousse;177
+165;9;Nata o crema de leche;298
+166;9;Queso blanco desnatado;70
+167;9;Queso Brie;263
+168;9;Queso cammembert;312
+169;9;Queso cheddar;381
+170;9;Queso crema;245
+171;9;Queso de bola;349
+172;9;Queso de Burgos;174
+173;9;Queso de oveja;245
+174;9;Queso edam;306
+175;9;Queso emmental;415
+176;9;Queso fundido untable;285
+177;9;Queso gruyere;391
+178;9;Queso manchego;376
+179;9;Queso mozzarella;245
+180;9;Queso parmesano;393
+181;9;Queso ricota;400
+182;9;Queso roquefort;405
+183;9;Requesón;96
+184;9;Yogur desnatado;45
+185;9;Yogur desnatado con frutas;82
+186;9;Yogur enriquecido con nata;65
+187;9;Yogur natural;62
+188;9;Yogur natural con fruta;100
+189;10;Bacon (Panceta ahumada);665
+190;10;Butifarra cocida;390
+191;10;Butifarra, salchicha fresca;326
+192;10;Cabrito;127
+193;10;Cerdo, chuleta;330
+194;10;Cerdo, hígado;153
+195;10;Cerdo, lomo;208
+196;10;Charqui;110
+197;10;Chicharrón;601
+198;10;Chorizo;468
+199;10;Ciervo;120
+200;10;Codorniz y perdiz;114
+201;10;Conejo, liebre;162
+202;10;Cordero lechón;105
+203;10;Cordero pierna;98
+204;10;Cordero, costillas;215
+205;10;Cordero, hígado;132
+206;10;Faisán;144
+207;10;Foie-Gras;518
+208;10;Gallina;369
+209;10;Hamburguesa;230
+210;10;Jabalí;107
+211;10;Jamón;380
+212;10;Jamón cocido;126
+213;10;Jamón crudo;296
+214;10;Jamón York;289
+215;10;Lengua de vaca;191
+216;10;Lomo embuchado;380
+217;10;Mortadela;265
+218;10;Pato;200
+219;10;Pavo, Muslo;186
+220;10;Pavo, Pechuga;134
+221;10;Perdiz;120
+222;10;Pies de cerdo;290
+223;10;Pollo, Hígado;129
+224;10;Pollo, Muslo;186
+225;10;Pollo, Pechuga;134
+226;10;Salamín;325
+227;10;Salchicha Frankfurt;315
+228;10;Salchichón;294
+229;10;Ternera, bistec;181
+230;10;Ternera, chuleta;168
+231;10;Ternera, hígado;140
+232;10;Ternera, lengua;207
+233;10;Ternera, riñón;86
+234;10;Ternera, sesos;125
+235;10;Ternera, solomillo;290
+236;10;Tira de asado;401
+237;10;Tripas;100
+238;10;Vacuno, Hígado;129
+239;11;Almejas;50
+240;11;Anchoas;175
+241;11;Anguilas;200
+242;11;Arenque ahumado;209
+243;11;Arenque seco;122
+244;11;Atún en lata con aceite vegetal;280
+245;11;Atún en lata con agua;127
+246;11;Atún fresco;225
+247;11;Bacalao fresco;74
+248;11;Bacalao salado remojado;108
+249;11;Bacalao seco;322
+250;11;Besugo;118
+251;11;Caballa;153
+252;11;Calamar;82
+253;11;Cangrejo;85
+254;11;Caviar;233
+255;11;Congrio;112
+256;11;Dorada;80
+257;11;Gallo;73
+258;11;Gambas;96
+259;11;Kani-Kama;80
+260;11;Langosta;67
+261;11;Langostino;96
+262;11;Lenguado;73
+263;11;Lubina;118
+264;11;Lucio;81
+265;11;Mejillón;74
+266;11;Merluza;86
+267;11;Mero;118
+268;11;Ostras;80
+269;11;Pejerrey;87
+270;11;Pez espada;109
+271;11;Pulpo;57
+272;11;Rodaballo;81
+273;11;Salmón;172
+274;11;Salmón ahumado;154
+275;11;Salmonete;97
+276;11;Sardina en lata con aceite vegetal;192
+277;11;Sardinas;151
+278;11;Trucha;94
+279;12;Agua ardiente;280
+280;12;Agua tónica;34
+281;12;Anís;312
+282;12;Batido lácteo de cacao;100
+283;12;Cacao en polvo sin azúcar a la taza;439
+284;12;Café;1
+285;12;Cerveza negra;37
+286;12;Cerveza rubia;45
+287;12;Champaña demi-sec;90
+288;12;Champaña dulce;118
+289;12;Champaña seca;85
+290;12;Coñac, brandy;243
+291;12;Crema de cacao;260
+292;12;Daiquiri;122
+293;12;Gin & Tónica;76
+294;12;Ginebra;244
+295;12;Leche de almendras;335
+296;12;Licor de caña;273
+297;12;Piña colada;194
+298;12;Pisco;210
+299;12;Refrescos carbonatados;48
+300;12;Ron;244
+301;12;Sidra dulce;33
+302;12;Sidra seca;35
+303;12;Té;1
+304;12;Vermouth amargo;112
+305;12;Vermouth dulce;160
+306;12;Vino de mesa;70
+307;12;Vino dulce, jerez;160
+308;12;Vino oporto;160
+309;12;Vodka;315
+310;12;Whisky;244
+311;13;Barra de chocolate;441
+312;13;Maíz, palomitas;592
+313;13;Maíz, tiras fritas;459
+314;13;Papas fritas;544
+315;14;Aceite de girasol;900
+316;14;Aceite de maíz;900
+317;14;Aceite de maní;900
+318;14;Aceite de oliva;900
+319;14;Aceite de soja;900
+320;14;Manteca;670
+321;14;Mantequilla;752
+322;14;Margarina vegetal;752
+323;15;Bechamel;115
+324;15;Caldos concentrados;259
+325;15;Ketchup;98
+326;15;Mayonesa;718
+327;15;Mayonesa light;374
+328;15;Mostaza;15
+329;15;Salsa de soja;61
+330;15;Salsa de tomate en conserva;86
+331;15;Salsa golf;640
+332;15;Sofrito;116
+333;15;Vinagres;8
+334;16;Arroz con leche;123
+335;16;Babaroise;149
+336;16;Berlín;588
+337;16;Brazo de reina;150
+338;16;Buñuelos;123
+339;16;Canapé;234
+340;16;Canelones;127
+341;16;Churros;348
+342;16;Compota de frutas;90
+343;16;Croquetas;123
+344;16;Durazno en conserva;79
+345;16;Empanada de atún;243
+346;16;Jalea sola;30
+347;16;Jamón y queso apanados;214
+348;16;Lasaña;147
+349;16;Leche asada;145
+350;16;Leche nevada;120
+351;16;Manzana asada;157
+352;16;Mote con huesillos;221
+353;16;Ñoquis de papa;246
+354;16;Panqueque con manjar;219
+355;16;Pescado apanado;178
+356;16;Pie de limón;298
+357;16;Pizza;234
+358;16;Pollo apanado;283
+359;16;Ravioles de carne y jamón;253
+360;16;Rollos primavera;258
+361;16;Sémola con leche;130
+362;16;Sopaipillas pasadas;190
+363;16;Sopas de sobre;49
+364;16;Torta mil hojas;379
+365;16;Tortilla de papa;194
+366;16;Tutti fruti;185

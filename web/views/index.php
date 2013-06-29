@@ -43,6 +43,7 @@
       }
     </style>
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../css/ui-lightness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -87,7 +88,7 @@
           <div id="weight-graph" class="demo-placeholder"></div>
         </div>
         <form class="">
-              <input class="span2" type="text" name="date" placeholder="Date">
+              <input class="span2 datepicker" type="text" name="date" placeholder="Date">
               <input class="span2" type="text" name="weight" placeholder="Kg.">
               <button type="submit" class="btn">Añadir peso</button>
         </form>
@@ -130,6 +131,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../js/jquery-1.10.1.js"></script>
+    <script src="../js/jquery-ui-1.10.3.js"></script>
 	  <script src="../js/jquery.flot.js"></script>
     <script src="../js/bootstrap.js"></script>
 
@@ -167,6 +169,9 @@
 
         $.plot("#weight-graph", data);
         $(window).resize(function() {$.plot($('#weight-graph'), data);});
+    });
+    $(function() {
+      $( ".datepicker" ).datepicker({ dateFormat: "yy-mm-dd" });
     });
 	</script>
   </body>

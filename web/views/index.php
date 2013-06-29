@@ -83,7 +83,15 @@
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-        <h1>Your Weight!</h1>
+        <?php
+          $decreasing = true;
+          $weight = 63;
+          $target = 60;
+        ?>
+        <h1><?= $weight ?> Kg.</h1>
+        <p><?= $decreasing ? "¡Sigue así! :D": "¡Ánimo!";?></p>
+        <p><?= $weight < $target ? "Estás por debajo de tu objetivo:": "Estás
+por encima de tu objetivo:" ?> <?= $target ?>Kg.</p>
 		    <div class="demo-container">
           <div id="weight-graph" class="demo-placeholder"></div>
         </div>
@@ -164,8 +172,12 @@
         d2.push([20130610, 63]);
         d2.push([20130611, 63]);
 
+        var d3 = [];
+        d3.push([d1[0][0], <?= $target ?>]);
+        d3.push([d1[d1.length - 1][0], <?= $target ?>]);
 
-        var data = [d1, d2];
+
+        var data = [d1, d2, d3];
 
         $.plot("#weight-graph", data);
         $(window).resize(function() {$.plot($('#weight-graph'), data);});

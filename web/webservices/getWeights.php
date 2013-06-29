@@ -1,7 +1,6 @@
 <?php
-error_reporting(E_ALL);
-require('config/constants.php');
-require('classes/Database.php');
+require('../config/constants.php');
+require('../classes/Database.php');
 
 if( !empty($_GET) ) {
     foreach($_GET as $key => $value) {
@@ -12,15 +11,17 @@ if( !empty($_GET) ) {
     $db->init(DB_HOST, DB_USER, DB_PSW, DB_NAME);
     $db->connect();
 
-    $sql_Get = 'SELECT date, quantity FROM activities WHERE user = 1 AND 
+    $sql_Get = 'SELECT date, quantity FROM log WHERE user = 1 AND 
         activity = 3';
 
     $db->query($sql_Get);
     if( $db->countRows() >0 ) {
-        $weights = $db->loadRows(MYSQL_ASSOC);
-        foreach($weights as $int => $weight) {
-            list($fecha, $hora) = explode(' ', $weight['date']);
-            $weights[$fecha] = $weight['quantity'];
+        $items = $db->loadRows(MYSQL_ASSOC);
+        foreach($items as $int => $item) {
+            list($fecha, $hora) = explode(' ', $item['date']);
+            list($aa, $mm, $dd) = explode('-', $fecha);
+            $formated = sprintf('%s%s%s', $aa, $mm, $dd);
+            $weights[$formated] = $item['quantity'];
         }
         $data = $weights;
     } else {

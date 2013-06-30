@@ -21,7 +21,7 @@ if( !empty($_GET) ) {
             list($fecha, $hora) = explode(' ', $item['date']);
             list($aa, $mm, $dd) = explode('-', $fecha);
             $formated = sprintf('%s%s%s', $aa, $mm, $dd);
-            $weights[$formated] = $item['quantity'];
+            $weights[] = array($formated, $item['quantity']);
         }
         $data = $weights;
     } else {
@@ -30,7 +30,18 @@ if( !empty($_GET) ) {
 }
 $db->disconnect();
 
+$data2 = array();
+$sum = 0;
+$count = 0;
+for ($i = 0; $i < count($data); $i++) {
+  $sum += $data[$i][1];
+  $count++;
+  $data2[$i] = array($data[$i][0], $sum / $count);
+}
+
+$full_data = array($data, $data2);
+
 header('Access-Control-Allow-Headers: Content-Type');
 header('Content-type: application/json');
-echo json_encode($data);
+echo json_encode($full_data);
 ?>

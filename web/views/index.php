@@ -148,45 +148,24 @@ por encima de tu objetivo:" ?> <?= $target ?>Kg.</p>
 
     <!-- Graphs -->
     <script type="text/javascript">
-      $(function() {
-        var d1 = [];
-        d1.push([20130601, 80]);
-        d1.push([20130602, 79.9]);
-        d1.push([20130603, 75]);
-        d1.push([20130604, 76]);
-        d1.push([20130605, 78]);
-        d1.push([20130606, 60]);
-        d1.push([20130607, 63]);
-        d1.push([20130608, 65]);
-        d1.push([20130609, 60]);
-        d1.push([20130610, 61]);
-        d1.push([20130611, 62]);
-
-        var d2 = [];
-        d2.push([20130601, 80]);
-        d2.push([20130602, 80]);
-        d2.push([20130603, 77.5]);
-        d2.push([20130604, 77]);
-        d2.push([20130605, 77.5]);
-        d2.push([20130606, 73]);
-        d2.push([20130607, 70]);
-        d2.push([20130608, 68]);
-        d2.push([20130609, 65]);
-        d2.push([20130610, 63]);
-        d2.push([20130611, 63]);
-
-        var d3 = [];
-        d3.push([d1[0][0], <?= $target ?>]);
-        d3.push([d1[d1.length - 1][0], <?= $target ?>]);
-
-
-        var data = [d1, d2, d3];
-
-        $.plot("#weight-graph", data);
-        $(window).resize(function() {$.plot($('#weight-graph'), data);});
-    });
     $(function() {
       $( ".datepicker" ).datepicker({ dateFormat: "yy-mm-dd" });
+    });
+    $(function() {
+      $.ajax({
+        type: "GET",
+        url: "../webservices/getWeights.php?user=1",
+        dataType: "json",
+        success: function(jsondata) {
+          var d3 = [];
+          d3.push([jsondata[0][0][0], <?= $target ?>]);
+          d3.push([jsondata[0][jsondata[0].length - 1][0], <?= $target ?>]);
+          jsondata.push(d3);
+
+          $.plot($('#weight-graph'), jsondata);
+          $(window).resize(function() {$.plot($('#weight-graph'), data);});
+        }
+      });
     });
 	</script>
   </body>
